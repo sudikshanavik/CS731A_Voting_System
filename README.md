@@ -46,6 +46,7 @@ Major Problems in existing system-<br>
     + Create a new workspace:
     + Add the truffle-config.js file to your project and start the workspace.
 + Make sure Ganache is running
++ Go to ElectionSystem.sol and change the admins array with your local preferred ganache addresses.
 + Now move to the directory in which the you cloned the directory and run:
     + truffle console
     + truffle migrate
