@@ -1,0 +1,1506 @@
+body {
+  background: linear-gradient(116.73deg, #005E7B 0%, #7BD5E9 27.01%, #4DA0C4 46.64%, #006686 67.83%, #01455A 95.83%);
+  margin: 0px;
+}
+
+.coverpage-container {
+  background-image: url('assets/images/coverpage-background.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 96.9vh;
+}
+
+.about-container-from-cover {
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+}
+
+.contactus-container-from-cover {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactus-from-cover-content-container {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.coverpage-header-container {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  padding: 5px 20px;
+}
+
+.coverpage-about-container,
+.loginpage-about-container,
+.signuppage-about-container {
+  padding: 5px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.coverpage-about-container:hover,
+.loginpage-about-container:hover,
+.signuppage-about-container:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.coverpage-contactus-container,
+.loginpage-contactus-container,
+.signuppage-contactus-container {
+  padding: 5px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.coverpage-contactus-container:hover,
+.loginpage-contactus-container:hover,
+.signuppage-contactus-container:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.coverpage-not-header-container {
+  display: flex;
+  height: 100%;
+}
+
+.coverpage-content-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (min-width: 770px) {
+  .empty-container {
+    flex: 1;
+  }
+
+  .coverpage-content-container {
+    margin: 0px 20px 0px 80px;
+  }
+}
+
+.coverpage-title-container {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 97%;
+}
+
+.coverpage-title-container:hover {
+  cursor: default;
+}
+
+.coverpage-description-container {
+  padding: 10px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.coverpage-description-container:hover {
+  cursor: default;
+}
+
+.coverpage-buttons-container {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 15%;
+}
+
+.signup-button,
+.login-button {
+  padding: 10px 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #168DB2;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.174);
+  color: white;
+}
+
+.login-button {
+  padding: 10px 26px;
+  font-size: 14.5px;
+}
+
+.signup-button:hover,
+.login-button:hover,
+.loginpage-loginbutton:hover,
+.signuppage-signupbutton:hover {
+  cursor: pointer;
+  background-color: #24738f;
+}
+
+.loginpage-container,
+.signuppage-container {
+  display: flex;
+  flex-direction: column;
+  height: 96.9vh;
+  padding: 10px;
+}
+
+.loginpage-header-container,
+.signuppage-header-container {
+  display: flex;
+  padding: 5px 20px;
+  gap: 10px;
+}
+
+.loginpage-header-empty-container,
+.signuppage-header-empty-container {
+  flex: 1;
+}
+
+.loginpage-title-container,
+.signuppage-title-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.loginpage-title-container:hover,
+.signuppage-title-container:hover {
+  cursor: pointer;
+}
+
+.loginpage-not-header-container,
+.signuppage-not-header-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+}
+
+.loginbox,
+.signupbox {
+  background-color: rgba(233, 233, 233, 0.38);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px 20px 20px;
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.18);
+}
+
+.login-title {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  margin-bottom: 40px;
+}
+
+.signup-title {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.login-inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 20px 10px;
+  margin-bottom: 45px;
+}
+
+.signup-inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  padding: 20px 10px;
+  margin-bottom: 25px;
+}
+
+.login-inputbox,
+.signup-inputbox {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  height: 20px;
+}
+
+.login-inputbox:focus,
+.signup-inputbox:focus {
+  outline: none;
+}
+
+.loginpage-loginbutton {
+  padding: 10px 26px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 14.5px;
+  background-color: #168DB2;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+.loginpage-maincontent-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 10px;
+}
+
+.loginpage-goto-signup-container {
+  display: flex;
+  align-items: center;
+}
+
+.loginpage-goto-signup-container:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.loginpage-go-to-signup-span {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  margin-right: 3px;
+}
+
+.signup-select {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.signup-select:focus {
+  border: none;
+  outline: none;
+}
+
+.signup-select-option {
+  font-family: 'Inter', sans-serif;
+}
+
+.signuppage-signupbutton {
+  padding: 10px 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #168DB2;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+.signuppage-maincontent-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: end;
+  justify-content: center;
+}
+
+.signup-error-paragraph,
+.login-error-paragraph {
+  color: red;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+
+.homepage-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.loadingpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh
+}
+
+.homepage-sidebar-container {
+  width: 190px;
+  background-color: #2B86A8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 3px;
+  box-shadow: 2px 0px 2px 1px rgba(0, 0, 0, 0.34);
+  z-index: 2;
+}
+
+.menuicon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#menu-icon {
+  font-size: 30px;
+  color: white;
+}
+
+.sidebar-item-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-item-container:hover {
+  background-color: rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.sidebar-signout-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  gap: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.sidebar-signout-button:hover {
+  background-color: rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+
+#dashboard-icon,
+#myprofile-icon,
+#contactus-icon,
+#signout-icon {
+  font-size: 20px;
+  color: white;
+}
+
+.dashboard-text,
+.myprofile-text,
+.contactus-text,
+.about-text,
+.signout-text {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.homepage-sidebar-empty-container {
+  flex: 1;
+}
+
+.homepage-not-sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.homepage-header-container {
+  background-color: #2B86A8;
+  display: flex;
+  align-items: center;
+  padding: 15px 40px 15px 20px;
+  height: 30px;
+  box-shadow: 4px 1px 4px 1px rgba(0, 0, 0, 0.482);
+  z-index: 2;
+}
+
+.homepage-header-title-container {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.homepage-header-empty-container {
+  flex: 1;
+}
+
+.connect-wallet-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #CC2727;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+  box-shadow: 0px 0.5px 1px 1px rgba(0, 0, 0, 0.148);
+}
+
+.connect-wallet-button:hover {
+  cursor: pointer;
+  background-color: #b32222;
+}
+
+.homepage-usertype-container {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+.homepage-content-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  flex: 1;
+  padding: 20px 30px 5px 30px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  z-index: 1;
+  align-items: center;
+  justify-content: start;
+  overflow-x: hidden;
+}
+
+/* @media screen and (max-width: 979px) {
+  .homepage-content-container {
+    justify-content: start;
+  }
+} */
+
+.no-election-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 15px;
+}
+
+
+
+.noelectionpage-loading-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.noelectionpage-loading-container span {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.parent-yes-election-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.yes-election-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.no-election-top-text,
+.no-election-bottom-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+#noelectionpage-addelection-button {
+  font-size: 21px;
+  padding: 10px 15px;
+  color: white;
+  background-color: #2B86A8;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#noelectionpage-addelection-button:hover {
+  cursor: pointer;
+  background-color: #24738f;
+}
+
+#yeselectionpage-addelection-button {
+  font-size: 21px;
+  padding: 10px 15px;
+  color: white;
+  background-color: #2B86A8;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  bottom: 25px;
+  right: 180px;
+}
+
+#yeselectionpage-addelection-button:hover {
+  cursor: pointer;
+  background-color: #24738f;
+}
+
+.newelectionpage-container,
+.viewelectionpage-container {
+  background-color: white;
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.21);
+}
+
+.newelectionpage-election-title-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.newelectionpage-title-header-container,
+.newelectionpage-description-header-container,
+.newelectionpage-start-time-header,
+.newelectionpage-end-time-header,
+.newelectionpage-candidates-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.newelectionpage-title-input {
+  padding: 10px;
+}
+
+.newelectionpage-election-description-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.newelectionpage-description-input {
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.newelectionpage-time-details-container {
+  padding: 10px;
+  display: flex;
+  gap: 70px;
+}
+
+.newelectionpage-start-time-container,
+.newelectionpage-end-time-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.newelectionpage-start-time-input,
+.newelectionpage-end-time-input {
+  height: 25px;
+  width: 70px;
+}
+
+.newelectionpage-candidates-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 0px 10px;
+  margin-bottom: 5px;
+}
+
+.newelectionpage-addparticipant-button {
+  padding: 7px 10px;
+  background-color: #2B86A8;
+  border: none;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.newelectionpage-addparticipant-button:hover {
+  background-color: #24738f;
+  cursor: pointer;
+}
+
+.newelectionpage-addparticipant-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  margin-right: 7px;
+  color: white;
+}
+
+#newelectionpage-addparticipant-icon {
+  color: white;
+  font-size: 13px;
+}
+
+.newelectionpage-candidateslist-container {
+  padding: 5px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.candidate-card-onentry-container {
+  width: 200px;
+  padding: 15px 15px 10px 10px;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.candidate-onentry-photo-circle {
+  height: 110px;
+  width: 110px;
+  margin-left: 45px;
+  border-radius: 55px;
+  position: relative;
+  border: 0.5px solid #797979;
+  z-index: 3;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.candidate-onentry-photo-circle img {
+  width: 100%;
+  height: 100%;
+}
+
+.candidate-onentry-photo-circle:hover {
+  background-color: #d1d1d1;
+}
+
+.candidate-card-fileinput {
+  position: absolute;
+  z-index: 4;
+  opacity: 0;
+  font-size: 5.8px;
+  padding: 48px 0px;
+  margin: 0px;
+}
+
+#candidate-photo-upload-icon {
+  font-size: 20px;
+  position: absolute;
+  top: 44px;
+  left: 44px;
+  color: rgb(97, 97, 97);
+}
+
+.candidate-details-container {
+  margin-top: 10px;
+}
+
+.candidate-details-name-container,
+.candidate-details-age-container,
+.candidate-details-designation-container,
+.candidate-details-email-container {
+  display: flex;
+  margin-bottom: 7px;
+  align-items: center;
+}
+
+.candidate-details-name-input,
+.candidate-details-designation-input,
+.candidate-details-email-input {
+  width: 100%;
+}
+
+.candidate-details-age-input {
+  width: 80px;
+}
+
+.candidate-details-name-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.candidate-details-age-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  padding-top: 2px;
+  margin-right: 15px;
+}
+
+.candidate-details-designation-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  padding-top: 2px;
+  margin-right: 16px;
+}
+
+.candidate-details-email-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  padding-top: 2px;
+  margin-right: 7px;
+}
+
+.candidate-details-name-input:focus,
+.candidate-details-age-input:focus,
+.candidate-details-designation-input:focus,
+.candidate-details-email-input:focus {
+  outline: none;
+}
+
+.candidate-card-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.upload-manifesto-container {
+  position: relative;
+  text-align: right;
+  display: inline;
+}
+
+.upload-manifesto-container:hover {
+  text-decoration: underline;
+  color: #209CE2;
+}
+
+.upload-manifesto-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  color: #209CE2;
+  margin-right: 5px;
+}
+
+.upload-manifesto-icon {
+  font-size: 13px;
+  color: #209CE2;
+}
+
+.upload-manifesto-fileinput {
+  position: absolute;
+  font-size: 7px;
+  opacity: 0;
+}
+
+.upload-manifesto-fileinput:hover {
+  cursor: pointer;
+}
+
+.add-candidate-button {
+  background-color: #26C82D;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.368);
+}
+
+.add-candidate-button:hover {
+  cursor: pointer;
+  background-color: #20a326;
+}
+
+.candidate-card-container-postentry {
+  display: flex;
+  flex-direction: column;
+  width: 195px;
+  padding: 15px 15px 10px 15px;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.candidate-photo-circle-postentry {
+  height: 120px;
+  width: 120px;
+  margin-left: 35px;
+  border-radius: 60px;
+  position: relative;
+  background-color: #797979;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.candidate-photo-circle-postentry img {
+  width: 100%;
+  height: 100%;
+}
+
+.candidate-details-container-postentry {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.candidate-details-name-container-postentry {
+  display: flex;
+  margin: 5px 0px;
+  gap: 5px;
+}
+
+.candidate-details-age-container-postentry {
+  display: flex;
+  margin: 5px 0px;
+  gap: 17px;
+}
+
+.candidate-details-designation-container-postentry {
+  display: flex;
+  margin: 5px 0px;
+  gap: 17px;
+}
+
+.candidate-details-email-container-postentry {
+  display: flex;
+  margin: 5px 0px;
+  gap: 7px;
+}
+
+.candidate-details-name-label-postentry,
+.candidate-details-age-label-postentry,
+.candidate-details-designation-label-postentry,
+.candidate-details-email-label-postentry {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.candidate-details-name-text-postentry,
+.candidate-details-age-text-postentry,
+.candidate-details-designation-text-postentry,
+.candidate-details-email-text-postentry {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.candidate-card-footer-container-postentry {
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+
+.postentry-manifesto-container {
+  display: inline;
+}
+
+.postentry-manifesto-container:hover {
+  text-decoration: underline;
+  color: #209CE2;
+  cursor: pointer;
+}
+
+.postentry-manifesto-text {
+  font-family: 'Inter', sans-serif;
+  color: #209CE2;
+  margin-right: 5px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.postentry-manifesto-text:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.postentry-manifesto-icon {
+  color: #209CE2;
+  font-size: 12px;
+}
+
+.newelectionpage-footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0px 10px;
+}
+
+.newelectionpage-cancel-button {
+  background-color: #CC2727;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.newelectionpage-cancel-button:hover {
+  background-color: #b32222;
+  cursor: pointer;
+}
+
+.newelectionpage-deploy-button {
+  background-color: #26C82D;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  /* padding: 10px; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 38px;
+  width: 72px;
+}
+
+.newelectionpage-deploy-button:hover {
+  background-color: #20a326;
+  cursor: pointer;
+}
+
+.viewelectionpage-loading-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewelectionpage-header-container {
+  position: relative;
+}
+
+/* .viewelectionpage-endelection-button {
+  background-color: #CC2727;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} */
+
+.noelectionpage-endelection-button {
+  background-color: #CC2727;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  bottom: 27px;
+  right: 30px;
+}
+
+.noelectionpage-endelection-button:hover {
+  cursor: pointer;
+  background-color: #b32222;
+}
+
+.viewelectionpage-endelection-span {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  color: #CC2727;
+  font-size: 21px;
+}
+
+.viewelectionpage-title-container {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.viewelectionpage-stats-container {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.viewelectionpage-stats-endsin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.viewelectionpage-stats-endsin-header,
+.viewelectionpage-stats-votes-header,
+.viewelectionpage-stats-candidates-header {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.viewelectionpage-stats-endsin-content {
+  color: #CC2727;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.viewelectionpage-stats-votes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.viewelectionpage-stats-votes-content {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.viewelectionpage-stats-candidates-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.viewelectionpage-stats-candidates-content {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.viewelectionpage-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 5px;
+}
+
+.viewelectionpage-description-header {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  margin-left: 3px;
+  font-size: 18px;
+}
+
+.viewelectionpage-description-content {
+  background-color: rgb(240, 240, 240);
+  min-height: 70px;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.viewelectionpage-candidates-container {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.viewelectionpage-candidates-header {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.candidate-card-footer-container-forvote {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.candidate-card-footer-vote-button {
+  padding: 5px 10px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  background-color: #26C82D;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 0px 2px 0.5px rgba(0, 0, 0, 0.25);
+}
+
+.candidate-card-footer-vote-button:hover {
+  cursor: pointer;
+  background-color: #20a326;
+}
+
+.candidate-card-footer-voted-span {
+  font-family: 'Inter', sans-serif;
+  color: #26C82D;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.candidate-card-footer-winner-span {
+  font-family: 'Inter', sans-serif;
+  color: #CC2727;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.viewelectionpage-candidates-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px 10px 0px 10px;
+}
+
+.myprofile-root-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myprofile-card-container {
+  background-color: white;
+  box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.25);
+  padding: 10px 0px 15px 10px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myprofile-badge-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 30px 0px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 100,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+#myprofile-badge-icon {
+  font-size: 200px;
+}
+
+.myprofile-details-container {
+  width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.myprofile-details-name-container,
+.myprofile-details-age-container,
+.myprofile-details-designation-container,
+.myprofile-details-email-container,
+.myprofile-details-usertype-container {
+  margin-bottom: 10px;
+}
+
+.myprofile-details-name-title,
+.myprofile-details-age-title,
+.myprofile-details-designation-title,
+.myprofile-details-email-title,
+.myprofile-details-usertype-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.myprofile-details-name-content,
+.myprofile-details-age-content,
+.myprofile-details-designation-content,
+.myprofile-details-email-content,
+.myprofile-details-usertype-content {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.myprofile-details-name-title {
+  margin-right: 10px;
+}
+
+.myprofile-details-age-title {
+  margin-right: 25px;
+}
+
+.myprofile-details-designation-title {
+  margin-right: 25px;
+}
+
+.myprofile-details-email-title {
+  margin-right: 10px;
+}
+
+.myprofile-details-usertype-title {
+  margin-right: 10px;
+}
+
+.contactus-root-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactus-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.developer-card-container {
+  background-color: white;
+  box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.25);
+  padding: 15px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#developer-badge-icon {
+  font-size: 150px;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200;
+}
+
+.developer-details-container {
+  padding: 10px 15px 0px 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.developer-details-name-container,
+.developer-details-age-container,
+.developer-details-designation-container,
+.developer-details-email-container {
+  margin-bottom: 10px;
+}
+
+.developer-details-name-title,
+.developer-details-age-title,
+.developer-details-designation-title,
+.developer-details-email-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.developer-details-name-title {
+  margin-right: 5px;
+}
+
+.developer-details-age-title {
+  margin-right: 20px;
+}
+
+.developer-details-designation-title {
+  margin-right: 20px;
+}
+
+.developer-details-email-title {
+  margin-right: 10px;
+}
+
+.developer-details-name-content,
+.developer-details-age-content,
+.developer-details-designation-content,
+.developer-details-email-content {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.developer-card-footer-container {
+  width: 100%;
+  text-align: right;
+  padding: 0px 5px 2px 0px;
+}
+
+.developer-card-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.aboutpage-container {
+  background-color: white;
+  box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.25);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.aboutpage-content {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.electioncard-container {
+  background-color: white;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+  padding: 0px 10px;
+  border-radius: 5px;
+  height: 230px;
+  width: 400px;
+}
+
+.electioncard-container:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.724);
+}
+
+.electioncard-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.electioncard-header-empty-container {
+  flex: 1;
+}
+
+.electioncard-createdon-title,
+.electioncard-endsin-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  margin-right: 5px;
+  font-size: 17px;
+}
+
+.electioncard-createdon-content {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.electioncard-endsin-container {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.electioncard-titlebox-container {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  height: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px;
+}
+
+.electioncard-prefooter-container {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.electioncard-participants-title {
+  font-family: 'Inter', sans-serif;
+  margin-right: 7px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.electioncard-participants-content {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.electioncard-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 10px 0px 0px 0px;
+}
+
+.electioncard-votecount-container {
+  display: inline;
+}
+
+.electioncard-votecount-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  margin-right: 7px;
+}
+
+.electioncard-votecount-content {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.electioncard-description-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
