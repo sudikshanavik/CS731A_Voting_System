@@ -1,9 +1,11 @@
-**Introduction**
+# Blockchain-Based Voting System
+
+## **Introduction**
 
 This is a voting system for the campus community. We use blockchain technology to improve the election process. This website is decentralized, secure and transparent, making it infeasible to tamper with the results and easy to verify the accuracy of the election. The system makes vote tampering, manipulation, and fraud unfeasible.  It also increases the effectiveness of voting by cutting down on the time and expenses involved with traditional voting procedures and to strengthen the credibility of democracy by giving everyone access to a trustworthy and reliable voting platform. 
 
 
-**Problems in existing system**
+## **Problems in existing system**
 
 The existing voting system is often plagued by several issues, including voter fraud, manipulation, and inefficiencies.<br>
 
@@ -14,7 +16,7 @@ Major Problems in existing system-<br>
 + The system is vulnerable to outside cyberattacks, which jeopardize the voting process's confidentiality and integrity.<br>
 + The geographical limitations of the voting process may prevent some voters from participating, leading to a skewed representation of the population's opinion.<br>
 
-**Features Implemented**
+## **Features Implemented**
 
 + **User-friendly interface:** We designed the client application with a user-friendly interface using React that makes it easy for users to cast their votes and view the voting results.<br>
 + **Transparency:** By the use of blockchain technology, the entire voting process is made transparent by publishing the voting results on the network.<br>
@@ -27,14 +29,14 @@ Major Problems in existing system-<br>
 
 
 
-**Software implementation language/technology**
+## **Tech Stack**
 + **Blockchain:** For setting up the private blockchain we used Ganache, and Truffle Framework for deploying and interacting with the smart contract that was deployed on Ganache.<br>
 + **Front-End:** For the client application, we used React. The voters can cast their votes and administrators can manage the voting process without any hassle.<br>
 + **Metamask:** It is connected to the blockchain and the front-end. Initially, Ganache creates some accounts with their private keys respectively. Using these private keys, we imported those accounts to metamask.<br>
 + **Back-End:** We used Firebase for storing Contestant details, Manifestos and also for the user authentication.<br>
 
 
-**Instructions for Deploying**
+## **Instructions for Deploying**
 + To get the Blockchain running:
 + Install Ganache from https://trufflesuite.com/ganache/
 + Install Truffle:
@@ -48,6 +50,7 @@ Major Problems in existing system-<br>
     + truffle console
     + truffle migrate
 + Now your smart contract should be deployed on Ganache. You can see it under the Contracts tab in the Ganache UI
++ Install MetaMask extension (https://metamask.io/download.html) and make sure to have some Ether to test the application locally. Ganache, by default creates 10 accounts. Import one of this account into the metamask to test the system.
 
 + To get front end running:
 + First node.js must be installed. 
@@ -63,9 +66,38 @@ Major Problems in existing system-<br>
     + Change the contract address in the index.jsx file to your contract address
 + Go to the terminal in VS code (make sure the current directory is the github root folder) and then enter ‘npm start’. This will start the front end and redirect you to your default browser.
 
++ For Backend:
+    + Run the command: npm install firebase
 
 
-**Developers**
+## **Screenshots of the Application**
+ Login Page:<br>
+ <img width="600" alt="Screenshot 2023-04-15 at 00 35 33" src="https://user-images.githubusercontent.com/100257642/232218534-ce2bc1ce-e8bb-429d-b552-89a762d983a0.png">
+
+ Register Page:<br>
+ <img width="600" alt="Screenshot 2023-04-14 234002 00 55 46" src="https://user-images.githubusercontent.com/100257642/232219234-516df369-43a1-421d-87a5-74f49b701a39.png">
+
+ Home Page:<br>
+ <img width="600" alt="Screenshot 2023-04-15 at 17 30 18" src="https://user-images.githubusercontent.com/100257642/232219752-4f9f094c-ca28-4091-86cd-432396cb75aa.png">
+
+ Admin Zone- Creating New Elections after connecting to Metamask:<br>
+ 
+ Admin Zone- Adding Contestants:<br>
+ 
+ Developer Information Page:<br>
+ <img width="600" alt="Screenshot 2023-04-15 000946" src="https://user-images.githubusercontent.com/100257642/232221236-3ea59dc3-3c95-4e4e-83ef-e47f94f0f7ab.png">
+
+Voter Zone- Election Details (Live/Ended):<br>
+
+Admin Zone- Voter Card:<br>
+<img width="600" alt="Screenshot 2023-04-15 000800" src="https://user-images.githubusercontent.com/100257642/232220784-4b647483-af5c-46b2-8e87-d4e553590e91.png">
+
+Admin Zone- Results Declared after Election ended:<br>
+
+
+
+
+## **Developers**
 + Sudiksha Navik: sudiksha22@iitk.ac.in
 + Drashtant Singh Rathod: drashtants22@iitk.ac.in
 + Shashank Rapolu: ssrapolu20@iitk.ac.in
