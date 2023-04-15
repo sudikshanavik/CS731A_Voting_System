@@ -68,6 +68,9 @@ Major Problems in existing system-<br>
 
 + For Backend:
     + Run the command: npm install firebase
+    + Move to the directory: src-> config-> firebase.js
+     + Change the apikey, authDomain, projectId, storageBucket, messagingSenderId and appId according to your configurations. Watch the video from timestamp 3:00 to 10:00 in the video: https://www.youtube.com/watch?v=2hR-uWjBAgw
+       
 
 
 ## **Screenshots of the Application**
