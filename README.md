@@ -83,19 +83,25 @@ Major Problems in existing system-<br>
  Home Page:<br>
  <img width="600" alt="Screenshot 2023-04-15 at 17 30 18" src="https://user-images.githubusercontent.com/100257642/232219752-4f9f094c-ca28-4091-86cd-432396cb75aa.png">
 
- Admin Zone- Creating New Elections after connecting to Metamask:<br>
+ Admin Zone- Creating New Posts for Election after connecting to Metamask:<br>
+ <img width="600" alt="Screenshot 2023-04-15 223215" src="https://user-images.githubusercontent.com/100257642/232242039-ec93e8ea-dba6-4895-a139-ab1762e6fae2.png">
+
  
  Admin Zone- Adding Contestants:<br>
- 
+<img width="600" alt="Screenshot 2023-04-15 223404" src="https://user-images.githubusercontent.com/100257642/232242131-21ec8550-8a6f-4bc1-81cc-c307d2f9c79a.png">
+
  Developer Information Page:<br>
  <img width="600" alt="Screenshot 2023-04-15 000946" src="https://user-images.githubusercontent.com/100257642/232221236-3ea59dc3-3c95-4e4e-83ef-e47f94f0f7ab.png">
 
 Voter Zone- Election Details (Live/Ended):<br>
+<img width="600" alt="Screenshot 2023-04-15 223602" src="https://user-images.githubusercontent.com/100257642/232242357-ba31b05c-b185-4d88-9fae-6f2f477a9244.png">
 
 Admin Zone- Voter Card:<br>
 <img width="600" alt="Screenshot 2023-04-15 000800" src="https://user-images.githubusercontent.com/100257642/232220784-4b647483-af5c-46b2-8e87-d4e553590e91.png">
 
 Admin Zone- Results Declared after Election ended:<br>
+
+<img width="600" alt="Screenshot 2023-04-15 223937" src="https://user-images.githubusercontent.com/100257642/232242177-2911b583-5c25-45c0-adb9-d58b7ce74d66.png">
 
 
 
