@@ -1,6 +1,5 @@
 # Blockchain-Based Voting System
-## Members :-
-### Drashtant Singh Rathod, Sudiksha Navik, Shashank Ropalu
+
 ## **Introduction**
 
 This is a voting system for the campus community. We use blockchain technology to improve the election process. This website is decentralized, secure and transparent, making it infeasible to tamper with the results and easy to verify the accuracy of the election. The system makes vote tampering, manipulation, and fraud unfeasible.  It also increases the effectiveness of voting by cutting down on the time and expenses involved with traditional voting procedures and to strengthen the credibility of democracy by giving everyone access to a trustworthy and reliable voting platform. 
